@@ -1,0 +1,28 @@
+.nav{font-size:xx-large;font-weight: 700; background-color: rgb(43, 243, 243);
+}
+.nav li{margin: 2vw;}
+.search{font-size: x-large;font-weight: 600;
+    background-color: rgb(231, 231, 234);
+    border-radius:5px;border: 2px solid black;
+}
+
+body{background:linear-gradient(rgb(112, 110, 114),rgb(0, 0, 0))}
+
+.text h1{color: rgb(184, 62, 255);font-size: 3vw;
+font-weight: 1200; background-color: black; opacity: .6;
+padding: 1vw;
+}
+
+.cards{padding: 2vw;}
+
+.help{background: linear-gradient(to right, rgb(228, 224, 202),rgb(177, 165, 165),rgb(152, 0, 222));
+margin: 2vw;padding: 2vw;}
+
+.mb-3{border: 1px solid black ;padding:1vw;
+margin: .5vw; font-size: x-large; font-weight: 600;}
+
+.comments input{font-size: x-large;font-weight: 600;width: 55vw;
+    justify-content: center;text-align: center;
+height: 10vw;}
+
+.mental{font-weight: 800;text-align: center;}

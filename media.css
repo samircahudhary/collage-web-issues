@@ -1,0 +1,19 @@
+.card-body{
+    font-size: 18px; /* Default size */
+}
+
+@media (max-width: 576px) {
+    .card-body h5 {
+        font-size: 18px; /* Even smaller heading */
+    }
+
+    .card-body p {
+        font-size: 12px; /* Even smaller paragraph */
+    }
+}
+
+@media (max-width: 576px) {
+    .cards-body {
+        font-size: 14px; /* Even smaller for very small screens */
+    }
+}
