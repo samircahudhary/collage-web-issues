@@ -26,3 +26,22 @@ margin: .5vw; font-size: x-large; font-weight: 600;}
 height: 10vw;}
 
 .mental{font-weight: 800;text-align: center;}
+
+.studymaterial{ text-align: center;color: rgb(167, 25, 255);font-weight: 900;
+font-size: 5vw;background: linear-gradient(black,brown); border: 3px solid rgb(232, 3, 3) ;
+}
+
+.study {margin: 6vw;padding: 6vw;background:linear-gradient(rgb(184, 184, 184),pink,rgb(195, 0, 255));
+    border: 6px solid rgb(183, 0, 255) ;}
+
+.study li{font-weight: 600; font-size: x-large;}
+
+.study button{margin: 2vw;padding: 3vw;display: flex;
+    justify-content: center;background-color: rgb(166, 0, 255);border: solid black;border-radius: 5%;
+font-size: xx-large; font-weight: 600; font-style: oblique;}
+
+.pyq{color: white;text-align: center;position: sticky;top: 0;
+font-weight: 800; font-size: 3vw;}
+.decode{color: black;}
+.samplepaper{color: rgb(226, 43, 43); font-style: oblique;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
