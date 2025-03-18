@@ -6,7 +6,7 @@
     border-radius:5px;border: 2px solid black;
 }
 
-body{background:linear-gradient(rgb(112, 110, 114),rgb(0, 0, 0))}
+body{background:linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0))}
 
 .text h1{color: rgb(184, 62, 255);font-size: 3vw;
 font-weight: 1200; background-color: black; opacity: .6;
@@ -36,9 +36,9 @@ font-size: 5vw;background: linear-gradient(black,brown); border: 3px solid rgb(2
 
 .study li{font-weight: 600; font-size: x-large;}
 
-.study button{margin: 2vw;padding: 3vw;display: flex;
+.study button{margin: 2vw;display: flex;
     justify-content: center;background-color: rgb(166, 0, 255);border: solid black;border-radius: 5%;
-font-size: xx-large; font-weight: 600; font-style: oblique;}
+ font-weight: 600; font-style: oblique;}
 
 .pyq{color: white;text-align: center;position: sticky;top: 0;
 font-weight: 800; font-size: 3vw;}
