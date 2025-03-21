@@ -1,4 +1,4 @@
-.nav{font-size:xx-large;font-weight: 700; background-color: rgb(43, 243, 243);
+.nav{font-size:xx-large;font-weight: 700; background-color: rgb(224, 224, 224);
 }
 .nav li{margin: 2vw;}
 .search{font-size: x-large;font-weight: 600;
@@ -6,16 +6,51 @@
     border-radius:5px;border: 2px solid black;
 }
 
-body{background:linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0))}
+
+.nav, .container, .carousel, .figure, .btn-group {
+    position: relative;
+    z-index: 1; /* Ensures UI elements stay above the stars */
+}
+
+body {
+    background: black; /* Dark background for starry effect */
+    overflow-x: hidden;
+}
+
+.starry-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Ensures stars don’t affect clicks */
+    z-index: 0; /* Keeps it behind all content */
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    box-shadow: 0 0 5px white;
+    animation: twinkle 3s infinite ease-in-out alternate;
+}
+
+/* Randomize star positions */
+@keyframes twinkle {
+    0% { opacity: 0.3; transform: scale(1); }
+    100% { opacity: 1; transform: scale(1.2); }
+}
+
 
 .text h1{color: rgb(184, 62, 255);font-size: 3vw;
 font-weight: 1200; background-color: black; opacity: .6;
 padding: 1vw;
 }
 
-.cards{padding: 2vw;}
+.cards{padding: 1vw;}
 
-.help{background: linear-gradient(to right, rgb(228, 224, 202),rgb(177, 165, 165),rgb(152, 0, 222));
+.help{background: linear-gradient(to right, rgb(228, 224, 202),rgb(177, 165, 165),rgb(204, 137, 236));
 margin: 2vw;padding: 2vw;}
 
 .mb-3{border: 1px solid black ;padding:1vw;
@@ -27,11 +62,11 @@ height: 10vw;}
 
 .mental{font-weight: 800;text-align: center;}
 
-.studymaterial{ text-align: center;color: rgb(167, 25, 255);font-weight: 900;
-font-size: 5vw;background: linear-gradient(black,brown); border: 3px solid rgb(232, 3, 3) ;
+.studymaterial{ text-align: center;color: rgb(255, 255, 255);font-weight: 900;color: black;
+font-size: 5vw; border: 3px dashed rgb(0, 0, 0) ;
 }
 
-.study {margin: 6vw;padding: 6vw;background:linear-gradient(rgb(184, 184, 184),pink,rgb(188, 186, 189));
+.study {margin: 6vw;padding: 6vw;background:linear-gradient(rgb(184, 184, 184),rgb(223, 215, 215),rgb(188, 186, 189));
     border: 6px solid rgb(183, 0, 255) ;}
 
 .study li{font-weight: 600; font-size: x-large;}
@@ -40,14 +75,15 @@ font-size: 5vw;background: linear-gradient(black,brown); border: 3px solid rgb(2
     justify-content: center;background-color: rgb(166, 0, 255);border: solid black;border-radius: 5%;
  font-weight: 600; font-style: oblique;}
 
-.pyq{color: white;text-align: center;position: sticky;top: 0;
+.pyq{color: white;text-align:center;color: black;
 font-weight: 800; font-size: 3vw;}
 .decode{color: black;}
 .samplepaper{color: rgb(226, 43, 43); font-style: oblique;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 
-.virtual{text-align: center;font-size: xx-large; font-weight: 900;
-color: blueviolet;background-color: aqua;}
+.virtual{text-align: center;font-size: 3vw; font-weight: 1200; border-radius: 2%;
+    border: 5px double black;
+color: rgb(0, 0, 0);background-color: rgb(213, 213, 213);}
 .figure{font-size: x-large;font-weight: 600; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: azure;}
 
 
@@ -55,13 +91,13 @@ color: blueviolet;background-color: aqua;}
 .campus h1{font-weight: 800; font-style:inherit;}
 
 .library{font-weight: 500;font-size: larger; font-style: italic;
-     background: linear-gradient(white,pink,rgb(101, 239, 179),rgb(0, 255, 234),rgb(254, 210, 129) );
+     background: linear-gradient(white,rgb(202, 195, 196),rgb(193, 202, 198),rgb(178, 185, 184),rgb(72, 71, 69) );
     opacity: 1; margin: 2vw;padding: 2vw;}
 
     .sports img {
-        width: 50vw; /* Adjust width to occupy the column or container */
-        height: 30vw; /* Maintain aspect ratio */
-        max-width: 500px; /* Set a maximum width for control */
+        width: 50vw; 
+        height: 30vw; 
+        max-width: 500px; 
         display: block; /* Eliminate extra spacing caused by inline elements */
          padding: 5vw; /* Center the image within the column */
 
