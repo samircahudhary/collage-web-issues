@@ -1,6 +1,7 @@
 .nav{font-size:xx-large;font-weight: 700; background-color: rgb(224, 224, 224);
 }
-.nav li{margin: 2vw;}
+.nav li{margin: 2vw;} 
+.nav form input{height:large;width:larger;}
 .search{font-size: x-large;font-weight: 600;
     background-color: rgb(231, 231, 234);
     border-radius:5px;border: 2px solid black;
@@ -81,7 +82,7 @@ font-weight: 800; font-size: 3vw;}
 .samplepaper{color: rgb(226, 43, 43); font-style: oblique;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 
-.virtual{text-align: center;font-size: 3vw; font-weight: 1200; border-radius: 2%;
+.virtual{text-align: center;font-size: xx-large; font-weight: 1200; border-radius: 2%;
     border: 5px double black;
 color: rgb(0, 0, 0);background-color: rgb(213, 213, 213);}
 .figure{font-size: x-large;font-weight: 600; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: azure;}

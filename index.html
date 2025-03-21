@@ -11,24 +11,34 @@
 <link rel="stylesheet" href="media.css">
 <body>
   
-    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg p-4 nav">
-        <div class="container-fluid bg-light">
-          <a class="navbar-brand " href=""><img src="img/AIT-Pune-logo.png"  height="95px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg bg-light shadow-lg p-3 nav">
+      <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/AIT-Pune-logo.png" height="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Academics
-                </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                  <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                          Academics
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Departments</a></li>
+                          <li><a class="dropdown-item" href="#">Courses</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+  
 
                 
                 <ul class="dropdown-menu">
@@ -39,64 +49,52 @@
                 </ul>
               </li>
               
-            </ul>
-            <form class="d-flex " role="search">
-              <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success search" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
+          
       </nav>
 
 
       
 
-      <div id="carouselExampleDark" class="carousel carousel-dark slide container-fluid m-3">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide container-fluid p-0" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div id="carouselExampleDark" class="carousel slide container-fluid m-3" data-bs-ride="carousel">
-          <div class="carousel-inner text">
-        <div class="carousel-inner text ">
-          <div class="carousel-item active" data-bs-interval="1000">
-            <img src="img/ait pic 1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Onward To Glory</h1>
-            
+    
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/ait pic 1.jpg" class="d-block w-100 carousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Onward To Glory</h1>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="img/aitpic3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>"Discipline is the bridge between goals and achievement.</h3>
-              
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/aitpic3.jpg" class="d-block w-100 carousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>"Discipline is the bridge between goals and achievement."</h3>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/aiitpic2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>"Every challenge is an opportunity to prove your courage and strength</h3>
-             
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/aiitpic2.jpg" class="d-block w-100 carousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>"Every challenge is an opportunity to prove your courage and strength."</h3>
+                </div>
             </div>
-          </div>
         </div>
-        </div>
+    
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon"></span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon"></span>
         </button>
-      </div>
-
+    </div>
+    
 
       <div class="container  ">
         <div class="row ">
-      <div class="card col-12 col-md-6 col-lg-4 bg-primary text-white m-3 cards  " style="width: 24rem;">
+      <div class="card col-12 col-md-6 col-lg-4 bg-primary text-white m-3 cards  " style="width: 38rem;">
         <img src="img/girlCrying.svg" class="card-img-top" alt="...">
         <div class="card-body ">
           <h5 class="card-title">FAMILY PRESSURE</h5>
@@ -106,7 +104,7 @@
         </div>
         
       </div>
-      <div class="card col-12 col-md-6 col-lg-4 bg-primary text-white m-3 cards" style="width: 24rem;">
+      <div class="card col-12 col-md-6 col-lg-4 bg-primary text-white m-3 cards" style="width: 38rem;">
         <img src="img/mental-health-awareness-icon-vector.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">AWAERNESS</h5>
@@ -114,7 +112,7 @@
           <a href="https://alison.com/course/managing-mental-health?utm_source=bing&utm_medium=cpc&utm_campaign=531498933&utm_content=1361197932559388&utm_term=kwd-85076036257011:loc-90&msclkid=7ce835a6ba351e7ff898527e90abebc4" class="btn btn-danger">MORE</a>
         </div>
     </div>
-    <div class="card col-12 col-md-6 col-lg-4 bg-primary text-white m-3 cards" style="width: 24rem;">
+    <div class="card col-12 col-md-6 col-lg-4 bg-primary text-white m-3 cards" style="width: 38rem;">
         <img src="img/mental-health-awareness-week.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"> HEALTHY TIPS </h5>

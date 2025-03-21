@@ -17,3 +17,10 @@
         font-size: 14px; /* Even smaller for very small screens */
     }
 }
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+    }
+}
