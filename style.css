@@ -62,7 +62,8 @@ margin: .5vw; font-size: x-large; font-weight: 600;}
     justify-content: center;text-align: center;
 height: 10vw;}
 
-.mental{font-weight: 800;text-align: center;}
+.mental{font-weight: 800;text-align: center; color: rgb(255, 255, 255);
+font-size:5vw;}
 
 .studymaterial{ text-align: center;color: rgb(255, 255, 255);font-weight: 900;color: black;
 font-size: 5vw; border: 3px dashed rgb(0, 0, 0) ;
@@ -83,12 +84,12 @@ font-weight: 800; font-size: 3vw;}
 .samplepaper{color: rgb(226, 43, 43); font-style: oblique;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 
-.virtual{text-align: center;font-size: xx-large; font-weight: 1200; border-radius: 2%;
-    border: 5px double black;
-color: rgb(0, 0, 0);background-color: rgb(213, 213, 213);}
+.virtual1{text-align: center;font-size: 5vw; font-weight: 900; border-radius: 2%;
+    border: 5px double black;color: aliceblue;
+color: rgb(255, 255, 255);background-color: rgb(0, 0, 0);}
 .figure{font-size: x-large;font-weight: 600; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color: azure;}
 
-
+#campus{color: rgb(255, 255, 255);font-weight: 800;font-size: 5vw;}
 .campus{background-color: white;}
 .campus h1{font-weight: 800; font-style:inherit;}
 
@@ -103,4 +104,37 @@ color: rgb(0, 0, 0);background-color: rgb(213, 213, 213);}
         display: block; /* Eliminate extra spacing caused by inline elements */
          padding: 5vw; /* Center the image within the column */
 
+    }
+
+    .fitness{font-size: 900;color: aliceblue;text-align: center;font-size: 5vw;}
+    
+
+    p {
+        font-size: 2.2rem;
+        margin-bottom: 40px;
+    }
+    
+   .containerfit{background-color: rgb(255, 255, 255);
+background-image:url('img/gymy.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh; /* Ensures it covers the full viewport height */
+margin: 0; text-align: center;font-size: xx-large;
+font-weight: 900;color: antiquewhite;}
+
+    .btn1 {
+        padding: 15px 30px;
+        font-size: 1.5rem;
+        color: white;
+        background: red;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 55%; 
+        border-radius: 10px;
+    }
+    
+    .btn1:hover {
+        background: darkred;
     }
