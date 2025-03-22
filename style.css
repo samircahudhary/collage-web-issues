@@ -1,4 +1,5 @@
 .nav{font-size:xx-large;font-weight: 700; background-color: rgb(224, 224, 224);
+    ;top: 0;
 }
 .nav li{margin: 2vw;} 
 .nav form input{height:large;width:larger;}
@@ -8,7 +9,7 @@
 }
 
 
-.nav, .container, .carousel, .figure, .btn-group {
+.nav, .container, .carousel, .figure {
     position: relative;
     z-index: 1; /* Ensures UI elements stay above the stars */
 }
